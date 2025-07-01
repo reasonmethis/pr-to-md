@@ -40,7 +40,7 @@ Both tools do the same core task: **generate markdown reports from git changes**
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/reasonmethis/pr-to-md
 cd pr-to-md
 
 # No external dependencies required - uses only Python standard library
@@ -50,6 +50,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ## 🎯 Quick Start
+
+Copy `pr2md_a.py` or `pr2md_b.py` file to your project directory.
 
 ### Using the Advanced Version (`pr2md_a.py`)
 
@@ -139,7 +141,7 @@ Both tools generate well-structured markdown with:
 
 ### `src/config.py`
 
-[Clean diff showing only the changes]
+[Clean diff showing the changes with surrounding context]
 
 ## Other Changes
 
